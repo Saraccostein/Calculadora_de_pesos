@@ -1,0 +1,88 @@
+body
+{
+    font-family: 'Alliance No.1';
+    background-color: #101116;
+    color: #C1DEFF;
+    text-align: center;
+    width: 50%;
+    margin: 6rem auto auto auto;
+}
+h1
+{
+    font-family: 'LEMON MILK';
+    color: #FFFFFF;
+}
+p
+{
+    font-family: 'Alliance No.1';
+}
+div.earth
+{
+    width: 80%;
+    margin: -0.6rem auto;
+
+}
+.block
+{
+    border-radius: 10px;
+    background-color: #6871FF;
+    overflow:auto;
+    width: 39rem;
+    margin: auto;
+    height: 80%;
+    margin-top: 3rem;
+}
+span.earth
+{
+    display: flex;
+    width: 38%;
+    float: left;
+    font-size: 6.6rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+p.earth
+{
+    color: aliceblue;
+    float: left;
+    display: flex;
+    width: 62%;
+    text-align: left;
+    padding: 1.3rem 0 0 0;
+}
+div.mars
+{
+    width: 80%;
+    margin: -0.6rem auto;
+
+}
+span.mars
+{
+    display: flex;
+    width: 38%;
+    float: left;
+    font-size: 6.6rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+p.mars
+{
+    color: aliceblue;
+    float: left;
+    display: flex;
+    width: 62%;
+    text-align: left;
+    margin: 3rem 0rem 0rem 0rem;
+}
+p.overview
+{
+    margin-bottom: 6rem;
+}
+div.script
+{
+    float: left;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 2rem;
+}

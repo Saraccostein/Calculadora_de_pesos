@@ -78,11 +78,14 @@ p.overview
 {
     margin-bottom: 6rem;
 }
+script.mars
+{
+    display: flex;
+    text-align: center;
+}
 div.script
 {
-    float: left;
-    text-align: center;
-    width: 50%;
-    margin: auto;
+    color: aliceblue;
     font-size: 2rem;
+    width: 62%;
 }

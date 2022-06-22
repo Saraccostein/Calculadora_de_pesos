@@ -7,11 +7,14 @@ var g_jupiter = 24.8;
 var peso_final;
 if(planeta == 'marte')
 {
-    peso_final = peso * g_mars / g_earth;
+    peso_final = '<b>Tu peso en ' + planeta + ' es ' + parseFloat(peso * g_mars / g_earth).toFixed(2) +' kilos</b>';
+}
+else if(planeta == 'júpiter')
+{
+    peso_final = '<b>Tu peso en ' + planeta + ' es ' + parseFloat(peso * g_jupiter / g_earth).toFixed(2) +' kilos</b>';
 }
 else
 {
-    peso_final = peso * g_jupiter / g_earth;
+    peso_final = '<b>Por favor escribe correctamente el planeta (╥ᆺ╥；)</b>' 
 }
-peso_final = parseFloat(peso_final).toFixed(2);
-document.write('<b> ' + peso_final + ' kilos</b>');
+document.write(peso_final);

@@ -12,10 +12,6 @@ h1
     font-family: 'LEMON MILK';
     color: #FFFFFF;
 }
-p
-{
-    font-family: 'Alliance No.1';
-}
 div.earth
 {
     width: 80%;
@@ -58,11 +54,9 @@ div.mars
 }
 span.mars
 {
-    display: flex;
-    width: 38%;
-    float: left;
+    width: 40%;
+    float: right;
     font-size: 6.6rem;
-    text-align: center;
     padding-bottom: 0.2rem;
 }
 p.mars
@@ -70,22 +64,45 @@ p.mars
     color: aliceblue;
     float: left;
     display: flex;
-    width: 62%;
+    width: 54%;
     text-align: left;
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 3.7rem 0rem 0rem 1.65rem;
 }
 p.overview
 {
     margin-bottom: 6rem;
 }
-script.mars
+article.script
+{
+    color: aliceblue;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+script.script
 {
     display: flex;
     text-align: center;
 }
-div.script
+span.jupiter
+{
+    display: flex;
+    width: 38%;
+    float: left;
+    font-size: 9rem;
+    text-align: center;
+    margin-top: -1.9rem;
+}
+p.jupiter
 {
     color: aliceblue;
-    font-size: 2rem;
+    display: flex;
     width: 62%;
+    text-align: left;
+    padding-top: 2.4rem;
+    margin-right: 0.8rem;
+}
+div.jupiter
+{
+    width: 80%;
+    margin: -0.6rem auto;
 }

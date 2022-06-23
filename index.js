@@ -1,5 +1,5 @@
 var peso_ususario = prompt('¿Cuál es su peso en kilos?');
-var planeta = prompt('¡Elige tu planeta!\nPuedes elegir entre marte o júpiter');
+var planeta = prompt('gitlige tu planeta!\nPuedes elegir entre marte o júpiter');
 var peso = parseFloat(peso_ususario);
 var g_earth = 9.8;
 var g_mars = 3.7;
